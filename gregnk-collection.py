@@ -15,14 +15,14 @@ OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 
 from datetime import datetime
 
-# Last Updated 2023-06-01
+# Last updated 2023-06-01
 def remove_end_newline(input_str):
     if (input_str[-1:] == "\n"):
         return input_str[:-1]
     else:
         return input_str
 
-# Last Updated 2023-06-01
+# Last updated 2023-06-01
 def remove_forbidden_dir_chars(dir_str):
     forbidden_chars = []
 
@@ -36,7 +36,7 @@ def remove_forbidden_dir_chars(dir_str):
         
     return dir_str
 
-# Last Updated 2023-06-01
+# Last updated 2023-06-01
 def get_os_dir_slash():
     if os.name == 'nt':
         return "\\"
@@ -50,7 +50,7 @@ def get_os_dir_slash():
     else:
         raise Exception("Unsupported OS")
         
-# Last Updated 2023-06-01
+# Last updated 2023-06-01
 # Requries from datetime import datetime
 def print_current_time():
     print("Time: " + datetime.now().strftime("%Y-%m-%d @ %I:%M:%S %p"))      
