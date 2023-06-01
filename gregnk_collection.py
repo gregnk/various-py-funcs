@@ -23,7 +23,7 @@ def remove_end_newline(input_str):
         return input_str
 
 # Last updated 2023-06-01
-def remove_forbidden_dir_chars(dir_str):
+def remove_forbidden_file_name_chars(dir_str):
     forbidden_chars = []
 
     if os.name == 'nt':
