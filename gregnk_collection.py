@@ -14,6 +14,7 @@ OF OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
 '''
 
 from datetime import datetime
+import os
 
 # Last updated 2023-06-01
 def remove_end_newline(input_str):
@@ -37,6 +38,7 @@ def remove_forbidden_file_name_chars(file_name_str):
     return file_name_str
 
 # Last updated 2023-06-01
+# Requries import os
 def get_os_dir_slash():
     if os.name == 'nt':
         return "\\"
