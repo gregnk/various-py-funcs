@@ -58,5 +58,5 @@ def print_current_time():
     print("Time: " + datetime.now().strftime("%Y-%m-%d @ %I:%M:%S %p"))   
 
 # Last updated 2023-09-21
-def escape_slashes(input):
+def escape_backslashes(input):
     return input.replace("\"", "\\\"")
