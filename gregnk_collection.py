@@ -23,7 +23,7 @@ def remove_end_newline(input_str):
     else:
         return input_str
 
-# Last updated 2023-06-01
+# Last updated 2023-09-21
 def remove_forbidden_file_name_chars(file_name_str):
     forbidden_chars = []
 
@@ -33,7 +33,7 @@ def remove_forbidden_file_name_chars(file_name_str):
         forbidden_chars = ['/']
     
     for char in forbidden_chars:
-        file_name_str = file_name_str.replace(char, "–")
+        file_name_str = file_name_str.replace(char, "-")
         
     return file_name_str
 
