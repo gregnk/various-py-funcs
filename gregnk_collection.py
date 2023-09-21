@@ -55,4 +55,8 @@ def get_os_dir_slash():
 # Last updated 2023-06-01
 # Requries from datetime import datetime
 def print_current_time():
-    print("Time: " + datetime.now().strftime("%Y-%m-%d @ %I:%M:%S %p"))      
+    print("Time: " + datetime.now().strftime("%Y-%m-%d @ %I:%M:%S %p"))   
+
+# Last updated 2023-09-21
+def escape_slashes(input):
+    return input.replace("\"", "\\\"")
