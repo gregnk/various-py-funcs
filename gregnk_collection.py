@@ -1,5 +1,5 @@
 '''
-Code by Gregory N. Karastergios (gregnk.com)
+Code by Gregory Karastergios (gregnk.com)
 
 Permission to use, copy, modify, and/or distribute this software for
 any purpose with or without fee is hereby granted.
