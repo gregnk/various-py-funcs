@@ -1,5 +1,5 @@
 '''
-(c) Gregory Karastergios 2023
+(c) 2023 Gregory Karastergios 
 gregnk.com
 
 Permission to use, copy, modify, and/or distribute this software for
