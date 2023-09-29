@@ -65,7 +65,7 @@ def clear_screen():
 def escape_backslashes(input):
     return input.replace("\"", "\\\"")
 
-# Last updated 2023-09-21
+# Last updated 2023-09-28
 # Requires import pathlib
 def get_file_ext(file):
     return (pathlib.Path(file).suffix)[1:]
