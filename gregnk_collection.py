@@ -58,6 +58,11 @@ def get_os_dir_slash():
 def print_current_time():
     print("Time: " + datetime.now().strftime("%Y-%m-%d @ %I:%M:%S %p"))   
 
+# Last updated 2023-09-29
+# Requries from datetime import datetime
+def get_current_time():
+    return "Time: " + datetime.now().strftime("%Y-%m-%d @ %I:%M:%S %p")
+
 # Last updated 2023-09-28
 # Requries from datetime import datetime
 def print_iso_time():
